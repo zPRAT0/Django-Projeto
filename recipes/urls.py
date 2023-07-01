@@ -4,6 +4,5 @@ from recipes import views
 
 urlpatterns = [
     path('', views.home),
-    path('about/', views.about),
-    path('privacy/', views.privacy)
+    path('contact/', views.contact)
 ]
